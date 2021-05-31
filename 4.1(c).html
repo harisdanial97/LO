@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Webpage</title>
+
+  <link rel="stylesheet" type="text/css" href="4.1(c).css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="4.1(c).js"></script>
+    
+</head>
+
+<body>
+
+  
+  <div class="headers">The Euler equation is displayed below in vector form. Cancel any terms that are zero based on the relevant assumption.</div>
+  
+  <p class="main_grid">
+  <span class="first" id="first" data-click-state="1">\({\frac{\partial{}\vec{u}}{\partial{}t}}\)</span>
+  <span id="second">\(+\)</span> 
+  <span class="third" id="third" data-click-state="1">\(\underline{\underline{\mathrm{grad}}}\!\&gt;(\vec{u})\vec{u}\)</span> 
+  <span id="symbol"> \(=\) </span> 
+  <span class="fourth" id="fourth" data-click-state="1"> \(-\frac{1}{\rho}\&gt;\overrightarrow{\mathrm{grad}}{(p)}\)</span> 
+  <span id="fifth">\(+\)</span> 
+  <span class="sixth" id="sixth" data-click-state="1"> \(\vec{g}\) </span>
+  <span><button class="ans_btn" id="ans_btn" >Check</button> </span> 
+  </p>
+
+<br>
+
+
+  <p>
+  <div class="headers">Live preview of the simplified continuity equation based on your cancellations:</div>
+  <span class="eighth" id="eighth">
+  \({\frac{\partial{}\vec{u}}{\partial{}t}} + \underline{\underline{\mathrm{grad}}}\!\&gt;(\vec{u})\vec{u} = -\frac{1}{\rho}\&gt;\overrightarrow{\mathrm{grad}}{(p)} + \vec{g} \vphantom{\require{cancel}\cancelto{0} {{\partial \rho} \over {\partial t}}}\) </span> 
+  <span class="btn_icon tooltip"></span>
+  </p>
+
+
+</body>
+</html>
