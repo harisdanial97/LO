@@ -4,7 +4,7 @@ div.square {
   height: 230px;
   top: -370px;
   position: relative;
-  background: #0000;
+  background: #F5F5F5;
   z-index: -1;
   visibility: hidden;
 }
