@@ -4,6 +4,7 @@ jQuery(document).ready(function() {
   jQuery('#first').on('click', function() {
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
+  jQuery("#square").css('visibility', 'hidden');
         if(jQuery('#first').attr('data-click-state') == 1) {
             jQuery('#first').attr('data-click-state', 0);
             jQuery('#first').html("\\(\\cancelto{0} {\\frac{{\\partial u}}{{\\partial t}}}\\)");
@@ -21,6 +22,7 @@ jQuery(document).ready(function() {
   jQuery('#third').on('click', function() {
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
+  jQuery("#square").css('visibility', 'hidden');
         if(jQuery('#third').attr('data-click-state') == 1) {
             jQuery('#third').attr('data-click-state', 0);
             jQuery('#third').html("\\(\\cancelto{0} {u\\frac{{\\partial u}}{{\\partial x}}}\\)");
@@ -38,6 +40,7 @@ jQuery(document).ready(function() {
   jQuery('#fourth').on('click', function() {
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
+  jQuery("#square").css('visibility', 'hidden');
         if(jQuery('#fourth').attr('data-click-state') == 1) {
             jQuery('#fourth').attr('data-click-state', 0);
             jQuery('#fourth').html("\\(\\cancelto{0} {v\\frac{{\\partial u}}{{\\partial y}}}\\)");
@@ -55,6 +58,7 @@ jQuery(document).ready(function() {
   jQuery('#sixth').on('click', function() {
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
+  jQuery("#square").css('visibility', 'hidden');
         if(jQuery('#sixth').attr('data-click-state') == 1) {
             jQuery('#sixth').attr('data-click-state', 0);
             jQuery('#sixth').html("\\(\\cancelto{0} {w\\frac{{\\partial u}}{{\\partial z}}}\\)");
@@ -72,6 +76,7 @@ jQuery(document).ready(function() {
   jQuery('#seventh').on('click', function() {
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
+  jQuery("#square").css('visibility', 'hidden');
         if(jQuery('#seventh').attr('data-click-state') == 1) {
             jQuery('#seventh').attr('data-click-state', 0);
             jQuery('#seventh').html("\\(\\cancelto{0}{- \\frac{1}{\\rho }\\frac{{\\partial p}}{{\\partial x}}}\\)");
@@ -90,6 +95,7 @@ jQuery(document).ready(function() {
   jQuery('#eighth').on('click', function() {
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
+  jQuery("#square").css('visibility', 'hidden');
         if(jQuery('#eighth').attr('data-click-state') == 1) {
             jQuery('#eighth').attr('data-click-state', 0);
             jQuery('#eighth').html("\\(\\cancelto{0} {\\overrightarrow g .\\widehat x}\\)");
@@ -107,6 +113,7 @@ jQuery(document).ready(function() {
   jQuery('#first_b').on('click', function() {
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
+  jQuery("#square").css('visibility', 'hidden');
         if(jQuery('#first_b').attr('data-click-state') == 1) {
             jQuery('#first_b').attr('data-click-state', 0);
             jQuery('#first_b').html("\\(\\cancelto{0} {\\frac{{\\partial v}}{{\\partial t}}}\\)");
@@ -122,6 +129,7 @@ jQuery(document).ready(function() {
     });
 
   jQuery('#third_b').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#third_b').attr('data-click-state') == 1) {
@@ -139,6 +147,7 @@ jQuery(document).ready(function() {
     });
 
   jQuery('#fourth_b').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#fourth_b').attr('data-click-state') == 1) {
@@ -156,6 +165,7 @@ jQuery(document).ready(function() {
     });
 
   jQuery('#sixth_b').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#sixth_b').attr('data-click-state') == 1) {
@@ -173,6 +183,7 @@ jQuery(document).ready(function() {
     });
 
   jQuery('#seventh_b').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#seventh_b').attr('data-click-state') == 1) {
@@ -191,6 +202,7 @@ jQuery(document).ready(function() {
 
 
   jQuery('#eighth_b').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#eighth_b').attr('data-click-state') == 1) {
@@ -208,6 +220,7 @@ jQuery(document).ready(function() {
     });
 
   jQuery('#first_c').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#first_c').attr('data-click-state') == 1) {
@@ -225,6 +238,7 @@ jQuery(document).ready(function() {
     });
 
   jQuery('#third_c').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#third_c').attr('data-click-state') == 1) {
@@ -242,6 +256,7 @@ jQuery(document).ready(function() {
     });
 
   jQuery('#fourth_c').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#fourth_c').attr('data-click-state') == 1) {
@@ -259,6 +274,7 @@ jQuery(document).ready(function() {
     });
 
   jQuery('#sixth_c').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#sixth_c').attr('data-click-state') == 1) {
@@ -276,6 +292,7 @@ jQuery(document).ready(function() {
     });
 
   jQuery('#seventh_c').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#seventh_c').attr('data-click-state') == 1) {
@@ -294,6 +311,7 @@ jQuery(document).ready(function() {
 
 
   jQuery('#eighth_c').on('click', function() {
+    jQuery("#square").css('visibility', 'hidden');
   jQuery('.btn_icon').css('visibility', 'hidden');
   jQuery('#ans_btn').css('visibility', 'visible');
         if(jQuery('#eighth_c').attr('data-click-state') == 1) {
@@ -325,10 +343,14 @@ jQuery('.ans_btn').click(function() {
          jQuery('.btn_icon').html('<span><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span>  <span class="tooltip__content"><p class="tooltip_header">Correct <span class="tooltip_img"><img src="https://whytowiki.com/scion/public/check.svg" class="icon_img"/></span></p><p class="contant_tooltip"><b>Correct Answer:</b> Cancel the third and fourth term in the first line. Then, cancel all the terms on the LHS for the second and third line. Click on any of the terms to reset the question.</p></span>');
          jQuery('.btn_icon').css('visibility', 'visible');
          jQuery('#ans_btn').css('visibility', 'hidden');
+         jQuery("#square").css('visibility', 'visible');
+         jQuery("#square").css('border', '2px solid #90EE90');
     } else{
         jQuery('.btn_icon').html('<span><img src="https://whytowiki.com/scion/public/remove.svg" class="icon_img"/></span> <span class="tooltip__content"><p class="tooltip_header">Incorrect <span class="tooltip_img"><img src="https://whytowiki.com/scion/public/remove.svg" class="icon_img"/></span></p><p class="contant_tooltip"><b>Correct Answer:</b> Cancel the third and fourth term in the first line. Then, cancel all the terms on the LHS for the second and third line. Click on any of the terms to reset the question.</p></span>');
         jQuery('.btn_icon').css('visibility', 'visible');
         jQuery("#ans_btn").css('visibility', 'hidden');
+        jQuery("#square").css('visibility', 'visible');
+        jQuery("#square").css('border', '2px solid red');
     }    
 
 	  
