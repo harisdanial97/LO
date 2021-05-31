@@ -1,3 +1,14 @@
+div.square {
+  border: solid 2px #90EE90;
+  width: 480px;
+  height: 230px;
+  top: -370px;
+  position: relative;
+  background: #0000;
+  z-index: -1;
+  visibility: hidden;
+}
+
 div {
 	font-family: arial;
 	font-size: 15px;
@@ -121,8 +132,8 @@ button{
 
 .btn_icon span.tooltip__content {
 	width: 260px;
-	left: -250px;
-	margin-bottom: -130px;
+	left: -240px;
+	margin-bottom: -245px;
 }
 
 
@@ -148,7 +159,7 @@ button{
 
 span.btn_icon {
 	position: relative;
-	left: 550px;
+	left: 460px;
 	bottom:220px;
 }
 
