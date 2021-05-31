@@ -165,8 +165,8 @@ button{
 	cursor: pointer;
 }
 .flow_btn span.tooltip__content {
-	bottom: 50px;
-	right: -180px;
+	bottom: -40px;
+	right: -280px;
 	width: 270px;
 }
 
